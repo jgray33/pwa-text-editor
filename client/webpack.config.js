@@ -17,11 +17,14 @@ module.exports = () => {
       filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
     },
+    devServer: {
+      hot: "only",
+    },
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Webpack Plugin"
-      })
+        title: "Webpack Plugin",
+      }),
     ],
 
     module: {
