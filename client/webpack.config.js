@@ -4,6 +4,7 @@ const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 const WorkBoxPlugIn = require("workbox-webpack-plugin");
 
+
 module.exports = () => {
   return {
     mode: "development",
@@ -40,7 +41,7 @@ module.exports = () => {
         ],
       }),
       new InjectManifest({
-        swSrc: "./src/sw.js",
+        swSrc: "./src-sw.js",
         swDest: "install.js",
       }),
       new WorkBoxPlugIn.GenerateSW(),
