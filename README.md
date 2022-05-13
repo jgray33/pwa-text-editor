@@ -26,7 +26,7 @@ This is a live application which can be viewed here: https://ancient-mountain-21
 
 To install the app onto your local computer, click the install button on the screen. 
 
-![](assets\jate-screenshot.png) 
+![jate-screenshot](https://user-images.githubusercontent.com/95051960/168297527-5a04975f-0351-40d2-bd58-6adc0da8194d.png)
 
 <a name="usage"></a>
 ## Usage 
